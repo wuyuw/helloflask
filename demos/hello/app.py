@@ -36,3 +36,10 @@ def greet(name):
 def hello():
     """Just say hello."""
     click.echo('Hello, Human!')
+
+
+# custom flask cli command
+@app.cli.command()
+def hi():
+    """Just say hello."""
+    click.echo('Hello, 515!')
